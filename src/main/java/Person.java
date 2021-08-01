@@ -1,13 +1,14 @@
 import java.util.Objects;
 
 public class Person {
+
     protected String name;
     protected String surname;
     protected int age;
     protected String address;
 
 
-    public Person(String name, String surname) {
+    public Person() {
         this.name = name;
         this.surname = surname;
     }
@@ -29,10 +30,6 @@ public class Person {
         this.surname = surname;
         this.age = age;
         this.address = address;
-    }
-
-    public Person() {
-
     }
 
     public String getName() {

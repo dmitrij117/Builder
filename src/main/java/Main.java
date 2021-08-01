@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
+
         Person mom = new PersonBuilder()
                 .setName("Анна")
                 .setSurname("Вольф")

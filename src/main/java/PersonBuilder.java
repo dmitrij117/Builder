@@ -16,6 +16,7 @@ public class PersonBuilder {
     }
 
     public PersonBuilder setAge(int age) {
+        if (age < 0) throw new IllegalArgumentException("Поле \"age\" не может быть отрицательным!");
         newPerson.age = age;
         return this;
     }
